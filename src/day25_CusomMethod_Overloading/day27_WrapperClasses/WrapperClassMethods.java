@@ -1,4 +1,4 @@
-package day27_WrapperClasses;
+package day25_CusomMethod_Overloading.day27_WrapperClasses;
 
 public class WrapperClassMethods {
     public static void main(String[] args) {
