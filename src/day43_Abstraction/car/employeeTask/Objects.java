@@ -1,4 +1,4 @@
-package day43_Abstraction.employeeTask;
+package day43_Abstraction.car.employeeTask;
 
 public class Objects {
 
@@ -25,7 +25,7 @@ public class Objects {
 
         developer.work();
         developer.sleep();
-    // developer.bugReport();
+    // developer.fixBug();
         developer.eat();
         developer.fixBug();
 
