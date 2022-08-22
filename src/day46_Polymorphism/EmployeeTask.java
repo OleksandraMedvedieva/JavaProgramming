@@ -49,6 +49,29 @@ public class EmployeeTask {
         System.out.println(testers.size());
         System.out.println(scrumMembers.size());
 
+        double maxSalary = testers.get(0).getSalary();
+        Tester result = testers.get(0);
+        for (Tester each:testers){
+            if (each.getSalary() > maxSalary){
+                maxSalary = each.getSalary();
+                result = each;
+            }
+        }
+
+        System.out.println(result);
+
+        double maxSalary2 = developers.get(0).getSalary();
+        Developer result2 = developers.get(0);
+        for (Developer each:developers){
+            if (each.getSalary() > maxSalary){
+                maxSalary2 = each.getSalary();
+                result2 = each;
+            }
+        }
+
+        System.out.println(result2);
+
+
 
 
     }
