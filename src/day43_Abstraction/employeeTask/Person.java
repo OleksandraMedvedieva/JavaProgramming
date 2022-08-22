@@ -1,4 +1,4 @@
-package day43_Abstraction.car.employeeTask;
+package day43_Abstraction.employeeTask;
 
 public abstract class Person {
     private String name;
