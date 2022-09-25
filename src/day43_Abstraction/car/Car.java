@@ -41,6 +41,7 @@ public abstract class Car {
         this.color = color;
     }
 
+
     public void setPrice(double price) {
         if (price <=0){
             throw new RuntimeException("Invalid price: " + price);

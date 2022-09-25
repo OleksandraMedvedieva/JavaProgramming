@@ -5,6 +5,7 @@ public class Animal {
     public String name,breed,size,color;
     public char gender;
     public int age;
+    
 
     public void setInfo(String name, String breed, String size, String color, char gender, int age) {
         this.name = name;

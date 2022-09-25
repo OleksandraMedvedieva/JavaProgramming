@@ -3,9 +3,11 @@ package day36_Inheritance.animalTask;
 public class Zoo {
     public static void main(String[] args) {
 
+
         Dog dog = new Dog();
         Tiger tiger = new Tiger();
         Cat cat = new Cat();
+
 
         dog.setInfo("Rikky", "Corgi", "medium", "black and brown", 'M', 2);
         dog.eat();

@@ -1,9 +1,9 @@
 package day46_Polymorphism;
 
-import day43_Abstraction.animalTask.Animal;
-import day43_Abstraction.animalTask.Cat;
-import day43_Abstraction.animalTask.Dog;
-import day43_Abstraction.animalTask.Playable;
+import day42_Exceptions.animalTask.Animal;
+import day42_Exceptions.animalTask.Cat;
+import day42_Exceptions.animalTask.Dog;
+import day42_Exceptions.animalTask.Playable;
 import day43_Abstraction.employeeTask.*;
 import day45_Abstraction.shape.*;
 
